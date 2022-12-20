@@ -1,0 +1,19 @@
+.mainNavigation {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .logo {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .data {
+    position: absolute;
+    right: 5rem;
+  }
+}

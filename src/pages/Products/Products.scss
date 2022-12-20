@@ -1,0 +1,14 @@
+.products {
+  width: 100%;
+  .heading {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
