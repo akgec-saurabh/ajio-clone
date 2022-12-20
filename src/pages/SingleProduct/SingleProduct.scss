@@ -1,0 +1,70 @@
+.singleProduct {
+  padding: 0 10rem;
+
+  display: flex;
+  justify-content: space-between;
+  .left {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    height: 35rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .right {
+    margin-top: 5rem;
+    width: 25rem;
+    text-align: center;
+    .brand {
+      text-transform: uppercase;
+      color: #22a39f;
+      font-size: 1.2rem;
+      margin: 1rem;
+    }
+    .price {
+      font-size: 1.5rem;
+      margin: 0.5rem;
+    }
+    .product-details {
+      color: rgb(0, 0, 113);
+      font-size: 0.8rem;
+      font-weight: 500;
+      text-align: start;
+    }
+    .info {
+      li {
+        margin: 0.5rem 1rem;
+        font-size: 0.8rem;
+        text-align: start;
+      }
+    }
+    .btn {
+      margin: 1rem 0;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+      .icon {
+        margin-right: 0.5rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    .detail {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+    .addToBag {
+      background-color: black;
+      color: #ffffff;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+    .save {
+      border: 1px solid black;
+    }
+  }
+}

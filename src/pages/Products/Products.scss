@@ -1,14 +1,27 @@
 .products {
   width: 100%;
+  padding: 0 10rem;
   .heading {
-    font-weight: 800;
+    font-family: "Lora", serif;
     font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+    margin: 1rem;
   }
 
   .container {
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    .left {
+      flex: 1;
+    }
+    .right {
+      flex: 4;
+      .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
   }
 }
