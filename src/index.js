@@ -5,14 +5,17 @@ import "./index.css";
 
 import { BrowserRouter } from "react-router-dom";
 import CartContext, { CartContextProvider } from "./store/cart-context";
+import { AuthContextProvider } from "./context/auth-context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <CartContextProvider>
-        <App />
-      </CartContextProvider>
+      <AuthContextProvider>
+        <CartContextProvider>
+          <App />
+        </CartContextProvider>
+      </AuthContextProvider>
     </BrowserRouter>
   </React.StrictMode>
 );

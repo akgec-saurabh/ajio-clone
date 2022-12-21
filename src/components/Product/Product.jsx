@@ -8,7 +8,10 @@ const Product = ({ props, hide = false }) => {
   const ctx = useContext(CartContext);
 
   return (
-    <NavLink to={`id`} className={`product ${hide ? "hide" : ""} `}>
+    <NavLink
+      to={`/product/${props.id}`}
+      className={`product ${hide ? "hide" : ""} `}
+    >
       <div className="item">
         <img src={props.image} alt="" />
       </div>
